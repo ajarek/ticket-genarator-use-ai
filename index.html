@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Coding Conf 2025</title>
+</head>
+
+<body>
+  <div class="container">
+    <div>
+      <img src="./images/logo-full.svg" alt="Coding Conf Logo" width="150"/>
+    </div>
+    <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+    <p>Secure your spot at next year’s biggest coding conference.</p>
+    <form id="registration-form">
+      <div class="label-title">
+        <label for="avatar">Upload Avatar</label>
+        <div class="upload-wrapper">
+          <img src="./images/icon-upload.svg" alt="upload icon" width="40" />
+          <label for="avatar">Drag and drop or click to upload</label>
+          <input type="file" id="avatar" accept="image/*" required/>
+        </div>
+        <div class="icon-wrapper">
+          <img src="./images/icon-info.svg" id="icon info" alt="Avatar Preview" height="12"/>
+          <p>Allowed file types: png, jpg, jpeg</p>
+        </div>
+      </div>
+
+      <div class="input-wrapper">
+        <label for="name">Full Name</label>
+        <input id="name" type="text" required />
+      </div>
+      <div class="input-wrapper">
+        <label for="name">Email Address</label>
+        <input id="email" type="email" required />
+      </div>
+      <div class="input-wrapper">
+        <label for="name">GitHub Username</label>
+        <input id="github" type="text" required />
+      </div>
+
+
+      <div class="button-wrapper">
+        <button type="submit">Generate My Ticket</button>
+      </div>
+
+
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>

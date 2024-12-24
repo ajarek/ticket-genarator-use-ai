@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="confirmation.css" />
+  <title>Coding Conf - Potwierdzenie</title>
+</head>
+
+<body>
+  <div class="container">
+    <a href="index.html">
+      <img src="./images/logo-full.svg" alt="Coding Conf Logo" width="150" />
+    </a>
+    <div class="title-wrapper">
+      <h1>Congrats, <span id="name"></span></h1>
+      <h2>Your ticket is ready.</h2>
+      <p>
+        We've emailed your ticket to <br> <span id="email"></span> and will send
+        and will send updates in <br> the run up to the event.
+      </p>
+
+    </div>
+
+    <div class="ticket">
+      <div>
+        <img src="./images/logo-full.svg" alt="Coding Conf Logo" width="150" />
+      </div>
+      <div class="date-location">
+        <span> <span id="date"></span>
+      </span> <span id="location">London</span>
+      </div>
+      <div class="user-info">
+        <img id="user-image" />
+        <div class="row">
+          <p id="user-name"></p>
+          <p id="user-email"></p>
+          <p id="user-github"></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="confirmation.js"></script>
+</body>
+
+</html>
