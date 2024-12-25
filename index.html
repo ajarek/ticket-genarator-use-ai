@@ -11,46 +11,51 @@
 
 <body>
   <div class="container">
-    <div>
-      <img src="./images/logo-full.svg" alt="Coding Conf Logo" width="150"/>
-    </div>
-    <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
-    <p>Secure your spot at next year’s biggest coding conference.</p>
-    <form id="registration-form" aria-label="Registration Form">
-      <div class="label-title">
-        <label aria-label="Upload Avatar" for="avatar">Upload Avatar</label>
-        <div class="upload-wrapper">
-          <img id="avatar" src="./images/icon-upload.svg" alt="upload icon" width="40" />
-          <label aria-label="Drag and drop"  for="avatar">Drag and drop or click to upload</label>
-          <input type="file" id="avatar" accept="image/*" required />
-        <div class="icon-wrapper">
-          <img src="./images/icon-info.svg" id="icon info" alt="Avatar Preview" height="12"/>
-          <p>Allowed file types: png, jpg, jpeg</p>
+      
+      <h1>Your Journey to Coding Conf 2025 Starts Here!</h1>
+      <p>Secure your spot at next year’s biggest coding conference.</p>
+      <form id="registration-form">
+      <form id="registration-form" aria-label="Registration Form">
+        <div class="label-title">
+          <label for="avatar">Upload Avatar</label>
+          <label aria-label="Upload Avatar" for="avatar">Upload Avatar</label>
+          <div class="upload-wrapper">
+            <img src="./images/icon-upload.svg" alt="upload icon" width="40" />
+            <label for="avatar">Drag and drop or click to upload</label>
+            <input type="file" id="avatar" accept="image/*" required/>
+          </div>
+           
+          <div class="icon-wrapper">
+            <img src="./images/icon-info.svg" id="icon info" alt="Avatar Preview" height="12"/>
+            <p>Allowed file types: png, jpg, jpeg</p>
+          </div>
         </div>
-      </div>
-
-      <div class="input-wrapper">
-        <label for="name" aria-label="Full Name">Full Name</label>
-        <input id="name" type="text" required />
-      </div>
-      <div class="input-wrapper">
-        <label aria-label="Email Address" for="email">Email Address</label>
-        <input id="email" type="email" required />
-      </div>
-      <div class="input-wrapper">
-        <label aria-label="GitHub Username" for="github">GitHub Username</label>
-        <input id="github" type="text" required />
-      </div>
-
-
-      <div class="button-wrapper">
-        <button type="submit" aria-label="Generate My Ticket">Generate My Ticket</button>
-      </div>
-
-
-    </form>
-  </div>
-  <script src="script.js"></script>
-</body>
+  
+        <div class="input-wrapper">
+          
+          <label for="name" aria-label="Full Name">Full Name</label>
+          <input id="name" type="text" required />
+        </div>
+        <div class="input-wrapper">
+         
+          <label aria-label="Email Address" for="name">Email Address</label>
+          <input id="email" type="email" required />
+        </div>
+        <div class="input-wrapper">
+         
+          <label aria-label="GitHub Username" for="name">GitHub Username</label>
+          <input id="github" type="text" required />
+        </div>
+  
+  
+        <div class="button-wrapper">
+          <button type="submit" aria-label="Generate My Ticket">Generate My Ticket</button>
+        </div>
+  
+  
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
 
 </html>
